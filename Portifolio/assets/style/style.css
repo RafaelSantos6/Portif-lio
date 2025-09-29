@@ -136,3 +136,10 @@ article {
     margin: 15px;
  flex: 3;
 }
+
+.img-sobre img{
+    max-width: 500px;
+    max-height: 500px;
+    margin-left: 200px;
+    flex-direction: row;
+}
