@@ -136,10 +136,17 @@ article {
     margin: 15px;
  flex: 3;
 }
-
+.img-sobre{
+  width: 150px;
+    height: 150px;
+    object-fit: cover; 
+    border: 5px solid #333;
+    margin-bottom: 20px;
+}
 .img-sobre img{
     max-width: 500px;
     max-height: 500px;
     margin-left: 200px;
+    display: flex;
     flex-direction: row;
 }
