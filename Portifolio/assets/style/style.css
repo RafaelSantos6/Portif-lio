@@ -3,26 +3,28 @@
 
 /* Configurações gerais */
 body {
+     font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: #f0f0f0; /* Cor de fundo para o conteúdo principal */
+    padding-left: 100px;
+    padding-right: 110px;
 }
 
-/* Container principal do menu lateral */
 .sidebar {
-    width: 280px; /* Largura do menu */
-    height: 100vh; /* Altura total da tela */
-    position: fixed; /* Fixo na tela */
+    width: 280px; 
+    height: 100vh; 
+    position: fixed; 
     top: 0;
     left: 0;
-    background-color: #111111; /* Cor de fundo escura */
-    color: #ffffff; /* Cor do texto */
+    background-color: #111111; 
+    color: #ffffff; 
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 25px 15px;
-    box-sizing: border-box; /* Garante que o padding não aumente a largura */
+    box-sizing: border-box; 
     text-align: center;
+    flex: 3;
 }
 
 .sidebar-content {
@@ -84,21 +86,19 @@ body {
     color: #ffffff;
     text-decoration: none;
     padding: 12px 25px;
-    border-radius: 30px; /* Bordas arredondadas */
+    border-radius: 30px;
     font-weight: 500;
-    margin-top: auto; /* Empurra para baixo */
+    margin-top: auto;
     margin-bottom: 30px;
     transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #d44a19; /* Cor um pouco mais escura no hover */
+    background-color: #d44a19; 
 }
-
-/* Ícones de redes sociais */
 .social-icons {
     display: flex;
-    gap: 20px; /* Espaçamento entre os ícones */
+    gap: 20px;
 }
 
 .social-icons a {
@@ -111,8 +111,28 @@ body {
     color: #e8531e;
 }
 
-/* Estilo para o conteúdo principal da página (para demonstração) */
 .main-content {
-    margin-left: 280px; /* Mesma largura do menu para não ficar embaixo dele */
+    margin-left: 280px; 
     padding: 40px;
+}
+
+main {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* Section */
+
+section {
+    flex: 3;
+}
+
+article {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 15px;
+ flex: 3;
 }
